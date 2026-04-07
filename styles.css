@@ -5,11 +5,11 @@
 
 /* ===== CSS Variables ===== */
 :root {
-    /* Primary Colors - Vibrant Orange/Yellow Theme */
-    --primary-color: #FF8C00;
-    --primary-light: #FFB347;
-    --primary-dark: #E67300;
-    --primary-gradient: linear-gradient(135deg, #FF8C00 0%, #FFB347 50%, #FF6B00 100%);
+    /* Primary Colors - Dark Purple/Cool Theme */
+    --primary-color: #5a189a;
+    --primary-light: #7b2cbf;
+    --primary-dark: #3c096c;
+    --primary-gradient: linear-gradient(135deg, #5a189a 0%, #7b2cbf 50%, #3c096c 100%);
     
     /* Secondary Colors */
     --secondary-color: #1A1A2E;
@@ -41,8 +41,8 @@
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.12);
     --shadow-xl: 0 12px 60px rgba(0, 0, 0, 0.15);
-    --shadow-primary: 0 8px 30px rgba(255, 140, 0, 0.3);
-    --shadow-glow: 0 0 40px rgba(255, 140, 0, 0.2);
+    --shadow-primary: 0 8px 30px rgba(90, 24, 154, 0.3);
+    --shadow-glow: 0 0 40px rgba(90, 24, 154, 0.2);
     
     /* Typography */
     --font-main: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -285,7 +285,7 @@ input, textarea {
 
 .nav-link.nav-cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 12px 35px rgba(255, 140, 0, 0.4);
+    box-shadow: 0 12px 35px rgba(90, 24, 154, 0.4);
 }
 
 .hamburger {
@@ -330,7 +330,7 @@ input, textarea {
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(255, 140, 0, 0.4);
+    box-shadow: 0 15px 40px rgba(90, 24, 154, 0.4);
 }
 
 .btn-secondary {
@@ -742,7 +742,7 @@ input, textarea {
 .card-icon {
     width: 45px;
     height: 45px;
-    background: linear-gradient(135deg, #FFD700, #FFA500);
+    background: linear-gradient(135deg, #9d4edd, #5a189a);
     border-radius: var(--radius-sm);
     display: flex;
     align-items: center;
@@ -1412,7 +1412,7 @@ input, textarea {
 .form-group textarea:focus {
     border-color: var(--primary-color);
     background: var(--white);
-    box-shadow: 0 0 0 4px rgba(255, 140, 0, 0.1);
+    box-shadow: 0 0 0 4px rgba(90, 24, 154, 0.1);
 }
 
 .form-group i {
@@ -1591,7 +1591,7 @@ input, textarea {
 
 .back-to-top:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(255, 140, 0, 0.5);
+    box-shadow: 0 15px 40px rgba(90, 24, 154, 0.5);
 }
 
 /* ===== Responsive Styles ===== */
