@@ -39,9 +39,9 @@
 
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li><a href="#about" class="nav-link">Sobre</a></li>
                 <li><a href="#services" class="nav-link">Serviços</a></li>
-                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li><a href="#contact" class="nav-link nav-cta">Contato</a></li>
             </ul>
 
@@ -76,8 +76,7 @@
                 </h1>
 
                 <h2 class="hero-subtitle">
-                    Designer Gráfico
-                    <span class="typed-text">| Editor de Vídeo</span>
+                    Editor de vídeo / Designer gráfico
                 </h2>
 
                 <p class="hero-description">
@@ -143,6 +142,52 @@
             <i class='bx bx-mouse'></i>
             <span>Role para baixo</span>
         </a>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-container">
+            <div class="section-header center">
+                <span class="section-tag">PORTFOLIO</span>
+                <h2 class="section-title">Meu <span class="highlight">portfolio criativo</span></h2>
+                <p class="section-description">
+                    Uma seleção de projetos em vídeo, motion e design visual, com destaque
+                    para trabalhos voltados a conteúdo digital e comunicação de marca.
+                </p>
+            </div>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="motion">Motion Design</button>
+                <button class="filter-btn" data-filter="video">Vídeo</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Os itens do portfolio são carregados dinamicamente via config.js -->
+                <!-- Fallback estático caso JS esteja desabilitado -->
+                <noscript>
+                    <div class="portfolio-item" data-category="design">
+                        <div class="portfolio-image">
+                            <img src="imgs/pic1.webp" alt="Projeto 1" loading="lazy">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h4>Projeto 1</h4>
+                                    <p>Design</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </noscript>
+            </div>
+
+            <div class="portfolio-cta">
+                <a href="https://www.behance.net/AlexandreCabral25" target="_blank" class="btn btn-primary">
+                    <i class='bx bxl-behance'></i>
+                    Ver todos os projetos no Behance
+                </a>
+            </div>
+        </div>
     </section>
 
     <!-- About Section -->
@@ -290,52 +335,6 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="section-container">
-            <div class="section-header center">
-                <span class="section-tag">PORTFOLIO</span>
-                <h2 class="section-title">Meu <span class="highlight">portfolio criativo</span></h2>
-                <p class="section-description">
-                    Uma seleção de projetos em vídeo, motion e design visual, com destaque
-                    para trabalhos voltados a conteúdo digital e comunicação de marca.
-                </p>
-            </div>
-
-            <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">Todos</button>
-                <button class="filter-btn" data-filter="motion">Motion Design</button>
-                <button class="filter-btn" data-filter="video">Vídeo</button>
-                <button class="filter-btn" data-filter="design">Design</button>
-            </div>
-
-            <div class="portfolio-grid" id="portfolioGrid">
-                <!-- Os itens do portfolio são carregados dinamicamente via config.js -->
-                <!-- Fallback estático caso JS esteja desabilitado -->
-                <noscript>
-                    <div class="portfolio-item" data-category="design">
-                        <div class="portfolio-image">
-                            <img src="imgs/pic1.webp" alt="Projeto 1" loading="lazy">
-                            <div class="portfolio-overlay">
-                                <div class="portfolio-info">
-                                    <h4>Projeto 1</h4>
-                                    <p>Design</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </noscript>
-            </div>
-
-            <div class="portfolio-cta">
-                <a href="https://www.behance.net/AlexandreCabral25" target="_blank" class="btn btn-primary">
-                    <i class='bx bxl-behance'></i>
-                    Ver todos os projetos no Behance
-                </a>
-            </div>
-        </div>
-    </section>
-
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="cta-container">
@@ -476,9 +475,9 @@
                     <h4>Links Rápidos</h4>
                     <ul>
                         <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#about">Sobre</a></li>
                         <li><a href="#services">Serviços</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#contact">Contato</a></li>
                     </ul>
                 </div>
